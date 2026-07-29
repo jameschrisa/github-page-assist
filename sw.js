@@ -1,7 +1,7 @@
 // PagePilot service worker: precaches the app shell so the app opens
 // instantly and works offline (deploys still need the network, of course).
 // Bump VERSION on every release to invalidate old caches.
-const VERSION = 'pagepilot-v2'; // v2: single-view Primer redesign
+const VERSION = 'pagepilot-v3'; // v3: root favicon + SEO/meta files
 
 const SHELL = [
   './',
@@ -15,6 +15,8 @@ const SHELL = [
   './js/files.js',
   './js/analyze.js',
   './js/deploy.js',
+  './favicon.svg',
+  './404.html',
   './icons/favicon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',

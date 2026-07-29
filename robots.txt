@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jameschrisa.github.io/github-page-assist/sitemap.xml

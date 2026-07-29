@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Isometric cube: three rhombic faces -->
+  <polygon points="32,6 54,19 32,32 10,19" fill="#58a6ff"/>
+  <polygon points="54,19 54,45 32,58 32,32" fill="#1f6feb"/>
+  <polygon points="10,19 32,32 32,58 10,45" fill="#0d419d"/>
+</svg>

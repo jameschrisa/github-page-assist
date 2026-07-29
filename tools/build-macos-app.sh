@@ -35,7 +35,9 @@ rm -rf "$ICONSET"
 
 # --- 2. Copy the web app into the bundle --------------------------------
 echo "==> Copying app files"
-cp "$ROOT/index.html" "$ROOT/manifest.webmanifest" "$ROOT/sw.js" "$APP/Contents/Resources/app/"
+cp "$ROOT/index.html" "$ROOT/manifest.webmanifest" "$ROOT/sw.js" \
+   "$ROOT/404.html" "$ROOT/favicon.svg" "$ROOT/robots.txt" "$ROOT/sitemap.xml" \
+   "$ROOT/.nojekyll" "$APP/Contents/Resources/app/"
 cp -R "$ROOT/css" "$ROOT/js" "$ROOT/icons" "$APP/Contents/Resources/app/"
 
 # --- 3. Launcher ----------------------------------------------------------
